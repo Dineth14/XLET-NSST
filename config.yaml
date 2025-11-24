@@ -1,0 +1,36 @@
+# Configuration file for XLET-NSST Feature Testing
+
+# Transformation parameters
+transformation:
+  levels: 3              # Number of decomposition levels (1-5)
+  directions: 8          # Number of directional subbands (4, 8, 16)
+  shear_levels: 2        # Shearing levels for directional analysis
+  filter_type: 'maxflat' # Filter type: 'maxflat', 'pkva', 'haar'
+
+# Feature evaluation weights
+evaluation_weights:
+  entropy: 0.25         # Information content
+  energy: 0.15          # Signal energy
+  texture: 0.25         # Texture richness
+  edge: 0.20            # Edge preservation
+  separability: 0.15    # Class separability (if masks available)
+
+# Feature selection
+feature_selection:
+  top_k: 10                    # Number of top features to select
+  correlation_threshold: 0.8   # Max correlation between selected features
+  diversity_weight: 0.3        # Weight for diversity in selection
+
+# Visualization settings
+visualization:
+  dpi: 150
+  figure_size: [15, 10]
+  colormap: 'viridis'
+  save_format: 'png'
+
+# Output settings
+output:
+  save_statistics: true
+  save_visualizations: true
+  save_feature_maps: true
+  create_report: true

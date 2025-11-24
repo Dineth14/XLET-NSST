@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Results and outputs
+results/
+quick_results/
+output/
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+!data/*.png
+!data/*.jpg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (uncomment if you don't want to track data)
+# data/images/
+# data/masks/
+
+# Logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
