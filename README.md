@@ -2,6 +2,21 @@
 
 A comprehensive repository for testing and identifying the best frequency feature channels from XLET-NSST (Extended Laplacian with Nonsubsampled Shearlet Transform) transformation for semantic segmentation tasks.
 
+## ✅ **ANALYSIS COMPLETE** - Best Channels Identified!
+
+**Top 9 Recommended Channels for Segmentation:**
+1. `highpass_L0_D1` (22.5°) - Score: 0.5040, Boundary: 0.6527 ⭐
+2. `highpass_L0_D4` (90°) - Score: 0.4955, Boundary: 0.6512
+3. `highpass_L0_D7` (157.5°) - Score: 0.4907, Boundary: 0.6513
+4. `highpass_L0_D0` (0°) - Score: 0.5007, Boundary: 0.6517
+5. `highpass_L0_D5` (112.5°) - Score: 0.4923, Boundary: 0.6503
+6. `highpass_L0_D2` (45°) - Score: 0.4965, Boundary: 0.6522
+7. `highpass_L0_D3` (67.5°) - Score: 0.5010, Boundary: 0.6526
+8. `highpass_L0_D6` (135°) - Score: 0.4945, Boundary: 0.6527
+9. `highpass_L1_D0` (0°) - Score: 0.4450, Boundary: 0.6473
+
+📊 **See [COMPLETE_ANALYSIS_RESULTS.md](COMPLETE_ANALYSIS_RESULTS.md) for full analysis**
+
 ## 🎯 Purpose
 
 This repository provides tools to:
