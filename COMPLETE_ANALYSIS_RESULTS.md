@@ -1,4 +1,3 @@
-# What We Learned: The Full Story
 ## Complete Analysis Results
 
 **The Quest**: Find which frequency channels actually help with image segmentation  
